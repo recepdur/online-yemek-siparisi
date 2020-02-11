@@ -1,0 +1,165 @@
+*{
+	margin:0;
+	padding:0;
+}
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	background-color: #f0f0f0;	
+}
+#page{
+	width:1000px;
+	margin:0px auto;
+}
+#header{	
+	height:150px;	
+}
+#leftheader{	
+	float:left;
+	width:500px;
+}
+#rightheader {
+	width:350px;
+	float:right;
+	padding:20px 20px 0 0;
+}
+#rightheader span{
+	font-size:15px;
+	color:#f6b247;	
+}
+#cikis{
+	width:500px;
+	height:50px;
+	background-color:#F6F6F6;
+	margin:200px auto;
+}
+#cikis span{
+	font-size:18px;
+	color:#f6b247;	
+}
+#buyukkutu{
+	width:950px;	
+	font-size:15px;
+	margin-left:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+	background-color:#F6F6F6;
+}
+
+
+.logo {
+	font-size:40px;
+	padding:50px 0 0 50px;
+}
+.logo span {
+	color:#f6b247;	
+}
+#mainpage{	
+	/*background-color:white;*/
+}
+#menu{	
+	height:50px;
+	background-color:red;
+}
+#leftside{	
+	width:200px;
+	height:350px;
+	float:left;
+	background-color:#DDFFFF;
+	border:1px solid #f0f0f0; 
+}
+#content{	
+	width:594px;
+	float:left;
+	border:1px solid #f0f0f0; 
+}
+
+#giris{	
+	width:400px;
+	height:300px;
+	float:left;
+	margin-left:100px;
+	margin-bottom:30px;
+	margin-top:30px;
+	background-color:#F6F6F6;
+}
+#giris h1{	
+	font-size: 20px;
+	text-align: center;
+	margin-top:20px;
+}
+#giris form{	
+	margin-left:80px;
+	margin-top:30px;
+}
+#giris span{
+	font-size:15px;
+	color:#f6b247;	
+	text-decoration:none;
+}
+#yenikayit{
+	width:400px;
+	height:400px;
+	margin-left:250px;
+	margin-top:30px;
+	margin-bottom:30px;
+	background-color:#F6F6F6;
+}
+#yenikayit form{
+	margin-left:70px;
+	margin-top:30px;
+}
+#yenikayit h1{
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.clearboth{
+	clear:both;
+}
+#footer{	
+	height:50px;	
+	margin-bottom:20px;
+	background-color:#7D7D7D;
+	border:1px solid #f0f0f0;
+}
+#footer p{	
+	padding:15px 0 0 400px;
+	font-style: italic;
+}
+#footer span{	
+	font-size:15px;
+	color:#f6b247;	
+	text-decoration:none;
+}
+
+
+
+
+.cssmenu ul {margin: 0; 
+padding: 7px 6px 0; 
+background: #7d7d7d url(images/overlay.png) repeat-x 0 -110px; 
+line-height: 100%; 
+border-radius: 1em; 
+font: normal .8em/1.5em Arial, Helvetica, sans-serif; 
+-webkit-border-radius: 5px; 
+-moz-border-radius: 5px; 
+border-radius: 5px; 
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4); 
+-moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);
+}
+.cssmenu li {margin: 0 5px; padding: 0 0 8px; float: left; position: relative; list-style: none; }
+.cssmenu a {font-weight: bold; color: #e7e5e5; text-decoration: none; display: block; padding:  8px 20px; margin: 0; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;	 text-shadow: 0 1px 1px rgba(0,0,0, .3); }
+.cssmenu a:hover {background: #000; color: #fff;}
+.cssmenu .active a, 
+.cssmenu li:hover > a {background: #666 url(images/overlay.png) repeat-x 0 -40px; color: #444; border-top: solid 1px #f8f8f8; -webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2); -moz-box-shadow: 0 1px 1px rgba(0,0,0, .2); box-shadow: 0 1px 1px rgba(0,0,0, .2); text-shadow: 0 1px 0 rgba(255,255,255, 1); }
+.cssmenu ul ul li:hover a,
+.cssmenu li:hover li a {background: none; border: none; color: #666; -webkit-box-shadow: none; -moz-box-shadow: none;}
+.cssmenu ul ul a:hover {background: #8f8f8f url(images/overlay.png) repeat-x 0 -100px !important; color: #fff !important; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; text-shadow: 0 1px 1px rgba(0,0,0, .1);}
+.cssmenu li:hover > ul {display: block;}
+.cssmenu ul ul {display: none; margin: 0; padding: 0; width: 185px; position: absolute; top: 40px; left: 0; background: #ddd url(images/overlay.png) repeat-x 0 0; border: solid 1px #b4b4b4; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-box-shadow: 0 1px 3px rgba(0,0,0, .3); -moz-box-shadow: 0 1px 3px rgba(0,0,0, .3); box-shadow: 0 1px 3px rgba(0,0,0, .3);}
+.cssmenu ul ul li {float: none; margin: 0; padding: 3px; }
+.cssmenu ul ul a {font-weight: normal; text-shadow: 0 1px 0 #fff; }
+.cssmenu ul:after {content: '.'; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+* html .cssmenu  ul {height: 1%;}
